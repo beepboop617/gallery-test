@@ -60,3 +60,29 @@ h1 {
   font-size: 12px;
 }
 
+.gallery {
+  padding: 100px 40px;
+}
+
+.work {
+  position: relative;
+  margin-bottom: 120px;
+  cursor: pointer;
+}
+
+.work img,
+.work video {
+  width: 100%;
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: white;
+  padding: 10px 14px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
